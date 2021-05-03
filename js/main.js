@@ -1,9 +1,6 @@
 'use strict';
 
-
-console.log('5' * 3);
-console.log('5' - 3);
-console.log('5' / 3);
-console.log('5' + 3);
-console.log(parseInt('5',10) + 3);
-
+//false 0,null,undifined,'',false
+//true それ以外
+console.log(Boolean(0));
+console.log(Boolean('hello'));

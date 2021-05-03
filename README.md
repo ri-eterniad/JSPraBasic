@@ -31,6 +31,11 @@ JSの基礎~文法中心の学習記録です。
 
 ・string型と数字の計算parseInt
 
+・真偽値の判定について
+=,===
+false - 0,null,undifined,'',false
+true  - それ以外
+
 ●VScode関連
 
 ・複製
