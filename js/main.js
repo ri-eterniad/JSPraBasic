@@ -1,25 +1,32 @@
 'use strict';
 
-function border(message ="初期値"){
-    console.log('------------------');
-    console.log(`---------${message}-------`);
-    console.log('------------------');
-}
+// function sum(a,b,c){
+//     // console.log(a + b + c);
+//     return a + b+ c ;
+// }
 
-console.log('ようこそ');
-console.log('ようこそ');
-console.log('ようこそ');
-console.log('ようこそ');
-border();
-console.log('ようこそ');
-console.log('ようこそ');
-console.log('ようこそ');
-console.log('ようこそ');
-border('first');
-console.log('ようこそ');
-console.log('ようこそ');
-console.log('ようこそ');
-console.log('ようこそ');
-border('second');
-console.log('ようこそ');
-console.log('ようこそ');
+//定数関数に書き換えると
+
+// const sum =function (a,b,c){
+//     // console.log(a + b + c);
+//     return a + b+ c ;
+// };
+
+//アロー関数
+// const sum =(a,b,c)=>{
+//      return a + b+ c ;
+// };
+
+//さらに短く
+const sum =(a,b,c)=>a + b+ c ;
+
+const total =sum(2,3,4) + sum(9,4,4);
+console.log(total);
+
+// const double = function(a){
+//     return a*2;
+// };
+//書き換えると
+const double = a => a*2;
+
+console.log(double(12));

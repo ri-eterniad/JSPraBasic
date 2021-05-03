@@ -66,6 +66,35 @@ do{
 ・continueとbreak
 
 ・関数と引数、初期値
+function(仮引数,仮引数...){
+    処理;
+    処理;
+    処理;
+    return 返り値;
+}
+呼び出し
+関数名(実引数,実引数,....);
+
+※定数関数の場合は;に注意
+
+・アロー関数
+ex)
+const sum =(a,b,c)=>{
+      return a + b+ c ;
+ };
+
+さらに短く
+const sum =(a,b,c)=>a + b+ c ;
+
+()の省略※引数一つの場合
+const double = function(a){
+     return a*2;
+ };
+書き換えると
+const double = a => a*2;
+
+・return
+retun以降の処理は行われないので注意
 
 ●VScode関連
 
