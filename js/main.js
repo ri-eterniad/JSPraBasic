@@ -1,9 +1,9 @@
 'use strict';
 
-console.log(typeof'ようこそ');
-console.log(typeof 7);
-console.log(typeof true);
-console.log(typeof undifined);
-console.log(typeof null);
 
+console.log('5' * 3);
+console.log('5' - 3);
+console.log('5' / 3);
+console.log('5' + 3);
+console.log(parseInt('5',10) + 3);
 
