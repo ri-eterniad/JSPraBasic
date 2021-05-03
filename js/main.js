@@ -1,14 +1,36 @@
 'use strict';
 
-const score = 87;
+const signal = 'green';
 
-
-score >70　? console.log('良い点数です') : console.log('もう少し頑張りましょう')
-
-const name = 'masaru';
-
-if(score >69 && name === 'masaru'){
-    console.log('ok')
-}else{
-    console.log('もう少し頑張りましょう')
+switch(signal){
+    case 'red':
+        console.log('止まれ');
+        break;
+    case 'yellow':
+        console.log('注意や');
+        break;
+    case 'blue':
+        console.log('進め');
+        break;
+    default:
+        console.log('故障です');
+        break;
 }
+
+for(let i =1 ;i <=10 ;i++){
+    console.log(`hello${i}`);
+}
+
+let hp = 100;
+
+while(hp >0){
+    console.log(`HP：${hp}`)
+    hp -=10
+}
+
+hp = -50
+
+do{
+    console.log(`HP：${hp}`)
+    hp -=10
+}while(hp >0)
