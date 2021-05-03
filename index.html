@@ -9,5 +9,12 @@
 </head>
 <body>
     <script src="js/main.js"></script>
+    <script>
+        'use strict';
+        //ブロックで囲わないとmain.jsでxが宣言されているためエラー
+        {const x=8;
+        console.log(x);
+        }
+    </script>
 </body>
 </html>
