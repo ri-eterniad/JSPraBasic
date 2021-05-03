@@ -1,9 +1,17 @@
 'use strict';
 
-const price =500;
+let price =500;
 let num =3;
 
-console.log(price * num);
-num =5;
-console.log(price * num);
+price += 100
+console.log(price);
+price -=200
+console.log(price);
+price *=10
+console.log(price);
+price++;
+console.log(price);
+price--;
+console.log(price);
+
 
