@@ -1,12 +1,25 @@
 'use strict';
 
-for(let i =0 ;i<10 ;i++){
-    
-    if(i%3 === 0){
-        continue;
-    }
-    if(i === 8){
-        break;
-    }
-    console.log(i);
+function border(message ="初期値"){
+    console.log('------------------');
+    console.log(`---------${message}-------`);
+    console.log('------------------');
 }
+
+console.log('ようこそ');
+console.log('ようこそ');
+console.log('ようこそ');
+console.log('ようこそ');
+border();
+console.log('ようこそ');
+console.log('ようこそ');
+console.log('ようこそ');
+console.log('ようこそ');
+border('first');
+console.log('ようこそ');
+console.log('ようこそ');
+console.log('ようこそ');
+console.log('ようこそ');
+border('second');
+console.log('ようこそ');
+console.log('ようこそ');

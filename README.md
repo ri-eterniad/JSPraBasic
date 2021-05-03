@@ -65,6 +65,8 @@ do{
 
 ・continueとbreak
 
+・関数と引数、初期値
+
 ●VScode関連
 
 ・複製
